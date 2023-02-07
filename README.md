@@ -5,7 +5,7 @@ An e-commerce website
 
 | Codebase              |      Description          |
 | :-------------------- | :-----------------------: |
-| Tailwind  |    HTML       | 
+|   |    HTML       | 
 | CSS       | JAVASCRIPT  |  
 
 
