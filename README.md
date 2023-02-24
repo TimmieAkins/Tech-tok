@@ -10,11 +10,12 @@ An e-commerce website
 
 
 ## Contribute to our project
-1. Clone or fork the repo.
-2. Create your branch
-3. Update your branch by pulling from the main branch 
-4. Commit your changes and push to your branch 
-5. Pull request should be made to the main branch and nowhere else!
+1. fork the repo.
+2. Clone the repo
+3. Create your branch
+4. Update your branch by pulling from the main branch 
+5. Commit your changes and push to your branch 
+6. Pull request should be made to the main branch and nowhere else!
 
 ## Commit message must be descriptive. Example {commitType:} {commitDescription}
 
