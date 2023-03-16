@@ -1,12 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <!-- form should here -->
-</body>
+    <link rel="stylesheet" href="form.css">
+    <title>Details screen</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="body">
+                <div class="header">
+                    <h5>Fashion Frenzy</h5>
+                    <svg width="34" height="28" class="cart-icon" viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.6009 22.2503C8.78239 22.2469 7.30761 23.4395 7.30339 24.9006C7.29917 26.3617 8.76705 27.5598 10.5855 27.5632C12.404 27.5666 13.8954 26.374 13.8996 24.9129C13.9038 23.4518 12.4194 22.2536 10.6009 22.2503ZM27.1327 22.2811C25.3142 22.2777 23.8394 23.4703 23.8352 24.9314C23.831 26.3925 25.2988 27.5906 27.1173 27.594C28.9358 27.5974 30.4271 26.4048 30.4313 24.9437C30.4356 23.4826 28.9512 22.2844 27.1327 22.2811ZM12.4386 15.6125L24.7547 15.6354C25.9946 15.6377 27.0873 15.0952 27.6517 14.2727L33.7954 4.97317L30.906 3.69268L24.7624 12.9789L13.1571 12.9573L6.14906 0.990054L0.743164 0.97998L0.735496 3.63645L4.04185 3.64262L9.96419 13.735L7.72304 16.9718C6.51109 18.7494 8.09189 20.9173 10.6047 20.922L30.4429 20.959L30.4505 18.3025L10.6124 18.2655L12.4386 15.6125ZM18.9281 1.01387L25.5255 6.33914L18.8974 11.6398L16.5719 9.7626L19.19 7.65558L12.2962 7.64273L12.3039 4.98626L19.1977 4.9991L16.5752 2.88231L18.9281 1.01387Z" fill="#0000FF"/>
+                    </svg>
+                </div>
+    
+                <svg width="29" height="31" class="back" viewBox="0 0 29 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M28.083 15.3418C28.083 15.9101 27.9092 16.4551 27.5998 16.8569C27.2904 17.2588 26.8708 17.4845 26.4333 17.4845H6.22373L13.3039 26.6804C13.4577 26.8795 13.5798 27.116 13.663 27.3765C13.7463 27.6369 13.7892 27.9162 13.7892 28.1982C13.7892 28.4802 13.7463 28.7595 13.663 29.0199C13.5798 29.2804 13.4577 29.5169 13.3039 29.716C12.9926 30.1151 12.5728 30.3389 12.1354 30.3389C11.6979 30.3389 11.2781 30.1151 10.9668 29.716L1.06824 16.8595C0.914436 16.6605 0.792403 16.4239 0.709137 16.1635C0.62587 15.903 0.583008 15.6238 0.583008 15.3418C0.583008 15.0597 0.62587 14.7805 0.709137 14.5201C0.792403 14.2596 0.914436 14.0231 1.06824 13.824L10.9668 0.96755C11.2767 0.565011 11.6971 0.338867 12.1354 0.338867C12.3524 0.338867 12.5673 0.394387 12.7678 0.502257C12.9683 0.610126 13.1505 0.768233 13.3039 0.96755C13.4574 1.16687 13.5791 1.40349 13.6622 1.66391C13.7452 1.92433 13.788 2.20345 13.788 2.48532C13.788 2.7672 13.7452 3.04632 13.6622 3.30674C13.5791 3.56716 13.4574 3.80378 13.3039 4.0031L6.22373 13.199H26.4333C26.8708 13.199 27.2904 13.4248 27.5998 13.8266C27.9092 14.2285 28.083 14.7735 28.083 15.3418Z" fill="black"/>
+                </svg>
+                    
+    
+                <div class="card-container">
+                    <div class="grid" style="grid-area: 10px;">
+                        <div class="first-col">
+                            <div class="cust-info" style="height: 193.66px; width: 569.66px;">
+                                <div id="header-one">
+                                    <h3>Customer Info</h3>
+                                    <b>* Required</b>
+                                </div>
+                                <hr>
+                                <div class="email">
+                                    <form action="">Email *</form>
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <div class="ship-addr" style="height: 471.83px; width: 569.66px;">
+                                    <div class="header-two">
+                                        <h3>Shipping Address</h3>
+                                        <b>* Required</b>
+                                    </div>
+                                <hr>
+                                <div class="full-name-ship">
+                                    <form action="">Full Name *</form>
+                                    <input type="text">
+                                </div>
+                                <div class="street-addr">
+                                    <form action="">Street Address *</form>
+                                    <input type="text">
+                                    <div class="space-ship">
+                                        <input type="text">
+                                    </div>
+                                </div>
+    
+                                <div class="grid-ship">
+                                   <div class="city">
+                                        <form action="">City *</form>
+                                        <input type="text">
+                                   </div>
+                                   <div class="state">
+                                        <form action="">State/Province </form>
+                                        <input type="text">
+                                   </div>
+                                   <div class="zip">
+                                        <form action="">Zip/Postal Code *</form>
+                                        <input type="text">
+                                   </div>
+                                </div>
+                               <div class="country-ship">
+                                    <form action="">Country *</form>
+                                    <input type="text" placeholder="United States">
+                               </div>
+                            </div>
+                            <div class="bill-addr" style="height: 576.31px; width:569.66px;">
+                                <div class="header-three">
+                                    <h3>Billing Address </h3>
+                                    <b>* Required</b>
+                                </div>
+                                <hr>
+                                <div class="full-name-bill">
+                                    <form action="">Full Name *</form>
+                                    <input type="text">
+                                </div>
+                                <div class="street-bill">
+                                    <form action="">Street Address *</form>
+                                    <input type="text">
+                                    <div class="space-bill">
+                                        <input type="text">
+                                    </div>
+                                </div>
+                                <div class="grid-bill">
+                                    <input type="text" class="bill-one">
+                                    <input type="text" class="bill-two">
+                                    <input type="text" class="bill-three">
+                                </div>
+                                <div class="country-bill">
+                                    <form action="">Country *</form>
+                                    <input type="text" placeholder="United States">
+                                </div>
+                            </div>       
+                        </div>
+    
+                        <div class="sec-col">
+                            <div class="ship-info" style="height: 141.29px; width: 617.06px;">
+                                <div class="header-four">
+                                    <h3>Shipping Method</h3>
+                                    <b>* Required</b>
+                                </div>
+                                <hr>
+                               <div class="ship-det">
+                                    <div id="any-goods">
+                                        <input type="radio">
+                                        <label for="">Any Goods</label>
+                                    </div>
+                                    <b>$5.05 USD</b>
+                               </div>
+                            </div>
+                            <div class="pay-info" style="height: 426.03px; width:617.06px ;">
+                                <div class="header-five">
+                                    <h3>Payment Info</h3>
+                                    <b>* Required</b>
+                                </div>
+                                <hr>
+                                <div class="card-pay">
+                                    <form action="">Card Number *</form>
+                                    <input type="text">
+                                </div>
+                                <div class="grid-pay">
+                                    <div class="exp">
+                                        <form action="">Expiration Date *</form>
+                                        <input type="text">
+                                    </div>
+                                    <div class="sec">
+                                        <form action="">Security Code *</form>
+                                        <input type="text">
+                                    </div>
+                                 </div>
+                                 <p>Billing Address Same As Shipping </p>
+                            </div>
+                            <button onclick="showMessage()">Place Order</button>
+                            <div id="myModal" class="modal">
+                                <div class="modal-content">
+                                  <p id="order-received">Order Received</p>
+                                  <div class="loader"></div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <style>
+            .modal {
+              display: none;
+              position: fixed;
+              z-index: 1;
+              left: 0;
+              top: 0;
+              width: 100%;
+              height: 100%;
+              background-color: rgba(0, 0, 0, 0.5);
+            }
+            
+            .modal-content {
+              background-color: white;
+              border-radius: 5px;
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+              margin: 15% auto;
+              padding: 20px;
+              width: 50%;
+              text-align: center;
+              position: relative;
+            }
+            
+            .loader {
+              border: 8px solid #f3f3f3;
+              border-top: 8px solid #3498db;
+              border-radius: 50%;
+              width: 50px;
+              height: 50px;
+              animation: spin 2s linear infinite;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              margin-top: -25px;
+              margin-left: -25px;
+            }
+            
+            @keyframes spin {
+              0% { transform: rotate(0deg); }
+              100% { transform: rotate(360deg); }
+            }
+            </style>
+            
+            <script>
+            function showMessage() {
+              var modal = document.getElementById("myModal");
+              modal.style.display = "block";
+              setTimeout(function() {
+                modal.querySelector(".loader").style.display = "none";
+                modal.querySelector("#order-received").style.display = "block";
+              }, 3000); // hide the loader after 3 seconds
+            }
+            </script>
+    </body>
 </html>
