@@ -1,0 +1,27 @@
+footer {
+  height: 30px;
+  padding: 40px;
+  background: #f0efef;
+  font-size: 25px;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  /* position: absolute; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  font-size: 17px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.community:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

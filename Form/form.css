@@ -1,470 +1,798 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Scope+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Scope+One&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-/*
-font-family: 'Montserrat', sans-serif;
-font-family: 'Scope One', serif;
-*/
 body {
-    font-family: 'Montserrat', sans-serif;
-}  
-
-.grid {
-    display: grid;
-    grid-template-columns: 645.21px auto;
+  font-family: "Montserrat", sans-serif;
 }
 
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.header h5 {
-    font-family: 'Scope One', serif;
-    font-size: 25.05px;
-    font-weight: 400;
-    margin-top: 58px;
-    margin-left: 73px;
-    width: 176px;
-    height: 35px;
+.form-col {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
 }
 
-.cart-icon {
-    width: 33.06px;
-    height: 26.56px;
-    margin-top: 61.98px;
-    margin-right: 95.19px;
+.first-col {
+  background-color: white;
+  box-shadow: 20px;
 }
 
-.back {
-    margin-top: 204.34px;
-    margin-left: 37.58px;
-    width: 27.5px;
-    height: 30px;
+.sec-col {
+  align-items: center;
+  justify-content: center;
 }
 
 .cust-info {
-    margin-top: 100.66px;
-    margin-left: 57px;
-    box-shadow: 0px 3.32745099067688px 13.30980396270752px 0px #00000033;
+  margin-left: 57px;
+  height: 193.66px;
+  width: 569.66px;
+  box-shadow: 0px 3.32745099067688px 13.30980396270752px 0px #00000033;
 }
 
 #header-one {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 69.37px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 69.37px;
 }
 
 #header-one h3 {
-    margin-left: 13.79px;
-    font-weight: 500;
-    font-size: 22.69px;
+  margin-left: 13.79px;
+  font-weight: 500;
+  font-size: 22.69px;
 }
 
 #header-one b {
-    margin-right: 15.84px;
-    font-weight: 400;
-    font-size: 15.12px;
+  margin-right: 15.84px;
+  font-weight: 400;
+  font-size: 15.12px;
 }
 
 .email {
-    margin-top: 29.95px;
-    margin-left: 44.59px;
+  margin-top: 19px;
+  margin-left: 44.59px;
 }
 
 .email form {
-    font-weight: 400;
-    font-size: 12.6px;
-    margin-bottom: 10.94px;
+  font-weight: 400;
+  font-size: 12.6px;
+  margin-bottom: 10.94px;
 }
 
 .email input {
-    width: 480.48px;
-    height: 36.6px;
+  width: 480.48px;
+  height: 36.6px;
 }
 
 .ship-addr {
-    margin-top: 26.62px;
-    margin-left: 57px;
-    box-shadow: 0px 3.32745099067688px 13.30980396270752px 0px #00000033;
+  margin-top: 26.62px;
+  height: 536.31px;
+  width: 569.66px;
+  margin-left: 57px;
+  box-shadow: 0px 3.32745099067688px 13.30980396270752px 0px #00000033;
 }
 
 .header-two {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 69.37px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 69.37px;
 }
 
 .header-two h3 {
-    margin-left: 13.79px;
-    font-weight: 500;
-    font-size: 22.69px;
+  margin-left: 13.79px;
+  font-weight: 500;
+  font-size: 22.69px;
 }
 
 .header-two b {
-    margin-right: 15.84px;
-    font-weight: 400;
-    font-size: 15.12px;
+  margin-right: 15.84px;
+  font-weight: 400;
+  font-size: 15.12px;
 }
 
 .full-name-ship {
-    margin-top: 13.31px;
-    margin-left: 44.59px;
+  margin-top: 13.31px;
+  margin-left: 44.59px;
 }
 
 .full-name-ship form {
-    font-weight: 400;
-    font-size: 12.6px;
+  font-weight: 400;
+  font-size: 12.6px;
 }
 
 .full-name-ship input {
-    width: 480.48px;
-    height: 36.6px;
-    margin-top: 10.94px;
+  width: 480.48px;
+  height: 36.6px;
+  margin-top: 10.94px;
 }
 
 .street-addr {
-    margin-top: 29.95px;
-    margin-left: 44.59px;
+  margin-top: 29.95px;
+  margin-left: 44.59px;
 }
 
 .street-addr form {
-    font-weight: 400;
-    font-size: 12.6px;
-    margin-bottom: 10.94px;
+  font-weight: 400;
+  font-size: 12.6px;
+  margin-bottom: 10.94px;
 }
 
 .street-addr input {
-    width: 480.48px;
-    height: 36.6px;
-    padding-bottom: 10px;
+  width: 480.48px;
+  height: 36.6px;
+  padding-bottom: 10px;
 }
 
 .space-ship {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
-
 .grid-ship {
-    display: flex;
-    flex-direction: row;
-    margin-top: 19.96px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 19.96px;
 }
 
 .city form {
-    font-size: 9.98px;
-    font-weight: 400;
-    margin-bottom: 7.16px;
+  font-size: 9.98px;
+  font-weight: 400;
+  margin-bottom: 7.16px;
 }
 
 .state form {
-    font-size: 9.98px;
-    font-weight: 400;
-    margin-bottom: 7.16px;
+  font-size: 9.98px;
+  font-weight: 400;
+  margin-bottom: 7.16px;
 }
 
 .zip form {
-    font-size: 9.98px;
-    font-weight: 400;
-    margin-bottom: 7.16px;
+  font-size: 9.98px;
+  font-weight: 400;
+  margin-bottom: 7.16px;
 }
 .city input {
-    height: 38.2px;
-    width: 145.67px;
-   
+  height: 38.2px;
+  width: 145.67px;
 }
 .state input {
-    height: 38.2px;
-    width: 145.67px;
+  height: 38.2px;
+  width: 145.67px;
 }
 
 .zip input {
-    height: 38.2px;
-    width: 145.67px;
+  height: 38.2px;
+  width: 145.67px;
 }
 
 .city {
-    padding-left: 44.59px;
+  padding-left: 44.59px;
 }
 
 .state {
-    padding-left: 21.74px;
+  padding-left: 21.74px;
 }
 
 .zip {
-    padding-left: 21.74px;
+  padding-left: 21.74px;
 }
 
 .country-ship {
-    margin-top: 20.5px;
-    margin-left: 44.59px;
+  margin-top: 20.5px;
+  margin-left: 44.59px;
 }
 
 .country-ship form {
-    font-size: 12.6px;
-    font-weight: 400;
+  font-size: 12.6px;
+  font-weight: 400;
 }
 
 .country-ship input {
-    margin-top: 10.95px;
-    width: 480.48px;
-    height: 36.6px;
+  margin-top: 10.95px;
+  width: 480.48px;
+  height: 36.6px;
 }
 
 .bill-addr {
-    margin-top: 28.58px;
-    margin-left: 57px;
-    box-shadow: 0px 3.3274505138397217px 13.309802055358887px 0px #00000033;
+  margin-top: 28.58px;
+  margin-left: 57px;
+  height: 536.31px; 
+  width:569.66px;
+  box-shadow: 0px 3.3274505138397217px 13.309802055358887px 0px #00000033;
 }
 
 .header-three {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 69.37px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 69.37px;
 }
 
 .header-three h3 {
-    margin-left: 18.45px;
-    font-weight: 500;
-    font-size: 22.69px;
+  margin-left: 18.45px;
+  font-weight: 500;
+  font-size: 22.69px;
 }
 
 .header-three b {
-    margin-right: 15.84px;
-    font-weight: 400;
-    font-size: 15.12px;
+  margin-right: 15.84px;
+  font-weight: 400;
+  font-size: 15.12px;
 }
 
 .full-name-bill {
-    margin-top: 29.95px;
-    margin-left: 44.59px;
+  margin-top: 29.95px;
+  margin-left: 44.59px;
 }
 
 .full-name-bill form {
-    font-weight: 400;
-    font-size: 12.6px;
-    margin-bottom: 10.94px;
+  font-weight: 400;
+  font-size: 12.6px;
+  margin-bottom: 10.94px;
 }
 
-.full-name-bill input { 
-    width: 480.48px;
-    height: 36.6px;
+.full-name-bill input {
+  width: 310px;
+  height: 36.6px;
 }
 .street-bill {
-    margin-top: 29.95px;
-    margin-left: 44.59px;
+  margin-top: 29.95px;
+  margin-left: 44.59px;
 }
 
 .street-bill form {
-    font-weight: 400;
-    font-size: 12.6px;
-    margin-bottom: 10.94px;
+  font-weight: 400;
+  font-size: 12.6px;
+  margin-bottom: 10.94px;
 }
 
 .street-bill input {
-    width: 480.48px;
-    height: 36.6px;
+  width: 310px;
+  height: 36.6px;
 }
 
 .space-bill {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .grid-bill {
-    display: flex;
-    flex-direction: row;
-    margin-top: 39.13px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 39.13px;
 }
 
 .bill-one {
-    width: 145.67px;
-    height: 38.2px;
-    margin-left: 44.59px;
+  width: 145.67px;
+  height: 38.2px;
+  margin-left: 44.59px;
 }
 
 .bill-two {
-    width: 145.67px;
-    height: 38.2px;
-    margin-left: 21.74px;
+  width: 145.67px;
+  height: 38.2px;
+  margin-left: 21.74px;
 }
 
 .bill-three {
-    width: 145.67px;
-    height: 38.2px;
-    margin-left: 21.74px;
+  width: 145.67px;
+  height: 38.2px;
+  margin-left: 21.74px;
 }
 
 .country-bill {
-    margin-top: 20.5px;
-    margin-left: 44.59px;
+  margin-top: 20.5px;
+  margin-left: 44.59px;
 }
 
 .country-bill form {
-    font-size: 12.6px;
-    font-weight: 400;
+  font-size: 12.6px;
+  font-weight: 400;
 }
 
-.country-bill input{
-    margin-top: 10.95px;
-    width: 480.48px;
-    height: 36.6px;
+.country-bill input {
+  margin-top: 10.95px;
+  width: 480.48px;
+  height: 36.6px;
 }
 
 .ship-info {
-    margin-top: 100.66px;
-    box-shadow: 0px 3.32745099067688px 13.30980396270752px 0px #00000033;
+  height: 141.29px;
+  width: 569.66px;
+  box-shadow: 0px 3.32745099067688px 13.30980396270752px 0px #00000033;
 }
 
 .header-four {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 75.14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 75.14px;
 }
 
 .header-four h3 {
-    margin-left: 13.79px;
-    font-weight: 500;
-    font-size: 22.69px;
+  margin-left: 13.79px;
+  font-weight: 500;
+  font-size: 22.69px;
 }
 
 .header-four b {
-    margin-right: 15.84px;
-    font-weight: 400;
-    font-size: 15.12px;
+  margin-right: 15.84px;
+  font-weight: 400;
+  font-size: 15.12px;
 }
 
 .ship-det {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #any-goods {
-    margin-left: 25.95px;
-    margin-top: 27.94px;
+  margin-left: 25.95px;
+  margin-top: 27.94px;
 }
 
 #any-goods label {
-    font-size: 14.42px;
-    font-weight: 600;
+  font-size: 14.42px;
+  font-weight: 600;
 }
 
 .ship-det b {
-    margin-right: 39.73px;
-    margin-top: 23.63px;
-    font-size: 12.98px;
-    font-weight: 400;
+  margin-right: 39.73px;
+  margin-top: 23.63px;
+  font-size: 12.98px;
+  font-weight: 400;
 }
 
 .pay-info {
-    margin-top: 82.71px;
-    box-shadow: 0px 3.3274505138397217px 13.309802055358887px 0px #00000033;
+  margin-top: 82.71px;
+  height: 426.03px;
+  width: 569.66px;
+  box-shadow: 0px 3.3274505138397217px 13.309802055358887px 0px #00000033;
 }
- 
+
 .header-five {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 75.14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 75.14px;
 }
 
 .header-five h3 {
-    margin-left: 13.79px;
-    font-weight: 500;
-    font-size: 22.69px;
+  margin-left: 13.79px;
+  font-weight: 500;
+  font-size: 22.69px;
 }
 
 .header-five b {
-    margin-right: 15.84px;
-    font-weight: 400;
-    font-size: 15.12px;
+  margin-right: 15.84px;
+  font-weight: 400;
+  font-size: 15.12px;
 }
 
 .card-pay {
-    margin-top: 29.95px;
-    margin-left: 44.59px;
+  margin-top: 29.95px;
+  margin-left: 44.59px;
 }
 
 .card-pay form {
-    font-weight: 400;
-    font-size: 12.6px;
-    margin-bottom: 10.94px;
+  font-weight: 400;
+  font-size: 12.6px;
+  margin-bottom: 10.94px;
 }
 
 .card-pay input {
-    width: 520.46px;
-    height: 36.6px;
+  width: 520.46px;
+  height: 36.6px;
 }
 
 .grid-pay {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .exp form {
-    margin-top: 12.25px;
-    margin-left: 48.3px;
-    font-size: 13.65px;
-    font-weight: 400;
+  margin-top: 12.25px;
+  margin-left: 48.3px;
+  font-size: 13.65px;
+  font-weight: 400;
 }
 
 .exp input {
-    margin-top: 6.79px;
-    margin-left: 48.3px;
-    width: 238.61px;
-    height: 39.65px;
+  margin-top: 6.79px;
+  margin-left: 48.3px;
+  width: 238.61px;
+  height: 39.65px;
 }
 
 .sec form {
-    margin-top: 12.25px;
-    font-size: 13.65px;
-    font-weight: 400;
+  margin-top: 12.25px;
+  font-size: 13.65px;
+  font-weight: 400;
 }
 
 .sec input {
-    margin-top: 6.79px;
-    margin-right: 48.3px;
-    width: 238.61px;
-    height: 39.65px;
+  margin-top: 6.79px;
+  margin-right: 48.3px;
+  width: 238.61px;
+  height: 39.65px;
 }
 
 .pay-info p {
-    margin-left: 64.16px;
-    margin-top: 22.35px;
-    font-size: 13.25px;
-    font-weight: 400;
+  margin-left: 64.16px;
+  margin-top: 22.35px;
+  font-size: 13.25px;
+  font-weight: 400;
 }
 
 button {
-    margin-top: 67.12px;
-    height: 78.6px;
-    width: 520.2px;
-    background: #0500FF;
-    margin-left: 67.12px;
-    color: white;
-    font-size: 17.66px;
-    font-weight: 700;
+  margin-top: 67.12px;
+  height: 78.6px;
+  width: 520.2px;
+  background: #0500ff;
+  color: white;
 
+  font-size: 17.66px;
+  font-weight: 700;
 }
 
-@media only screen and (max-width: 700px) {
-    .body .grid {
-        grid-template-columns: 1fr;
-    }
-    .sec-col {
-        margin-left: 57px;
-    }
+button:hover {
+  opacity: 75%;
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 15% auto;
+  padding: 20px;
+  width: 50%;
+  text-align: center;
+  position: relative;
+}
+
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -25px;
+  margin-left: -25px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .form-container {
+    flex-direction: column;
+  }
+
+  .form-col {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .first-col,
+  .cust-info,
+  .ship-addr,
+  .bill-addr {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 30px;
+  }
+
+  .ship-addr {
+    height: 636.31px;
+  }
+
+  .email,
+  .full-name-ship,
+  .street-addr,
+  .country-ship,
+  .full-name-bill {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .email input,
+  .full-name-ship input,
+  .street-addr input,
+  .city input,
+  .state input,
+  .zip input,
+  .country-ship input {
+    width: 100%;
+  }
+
+  .header-one,
+  .header-two,
+  .header-three {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+  }
+
+  #header-one h3,
+  .header-two h3,
+  .header-three h3 {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  #header-one b,
+  .header-two b,
+  .header-three b {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .grid-ship {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .city,
+  .state,
+  .zip {
+    padding-left: 0;
+  }
+
+  .street-bill {
+    margin-top: 29.95px;
+    margin-left: 0px;
+  }
+
+  .country-bill {
+    margin-top: 20.5px;
+    margin-left: 0px;
+  }
+
+  .city input,
+  .state input,
+  .zip input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .sec-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .form-container {
+    flex-direction: column;
+  }
+
+  .form-col {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .first-col,
+  .cust-info,
+  .ship-addr,
+  .bill-addr {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 30px;
+  }
+
+  .email,
+  .full-name-ship,
+  .street-addr,
+  .country-ship,
+  .full-name-bill {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .email input,
+  .full-name-ship input,
+  .street-addr input,
+  .city input,
+  .state input,
+  .zip input,
+  .country-ship input {
+    width: 100%;
+  }
+
+  .header-one,
+  .header-two,
+  .header-three {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+  }
+
+  #header-one h3,
+  .header-two h3,
+  .header-three h3 {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  #header-one b,
+  .header-two b,
+  .header-three b {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .grid-ship {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .city,
+  .state,
+  .zip {
+    padding-left: 0;
+  }
+
+  .street-bill {
+    margin-top: 29.95px;
+    margin-left: 0px;
+  }
+
+  .country-bill {
+    margin-top: 20.5px;
+    margin-left: 0px;
+  }
+
+  .city input,
+  .state input,
+  .zip input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .sec-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* Make form columns stack vertically */
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+  }
+
+  /* Add space between form columns */
+  .form-col {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  /* Adjust padding for form sections */
+  .first-col,
+  .cust-info,
+  .ship-addr,
+  .bill-addr {
+    padding: 20px;
+    width:350px;
+
+  }
+
+
+
+  /* Adjust margin for form inputs */
+  .email,
+  .full-name-ship,
+  .street-addr,
+  .country-ship,
+  .full-name-bill {
+    margin: 10px 0;
+  }
+
+  /* Make form inputs full width */
+  .email input,
+  .full-name-ship input,
+  .street-addr input,
+  .city input,
+  .state input,
+  .zip input,
+  .country-ship input,
+  .country-bill input {
+    width: 100%;
+  }
+
+  /* Adjust header styling */
+  .header-one,
+  .header-two,
+  .header-three {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  /* Adjust margin for header elements */
+  #header-one h3,
+  .header-two h3,
+  .header-three h3 {
+    margin: 10px 0;
+  }
+
+  #header-one b,
+  .header-two b,
+  .header-three b {
+    margin-bottom: 10px;
+  }
+
+  /* Adjust styling for shipping address grid */
+  .grid-ship {
+    margin-top: 10px;
+  }
+
+  /* Adjust styling for billing address fields */
+  .street-bill {
+    margin-top: 10px;
+  }
+
+  .country-bill {
+    margin-top: 10px;
+  }
+
+  /* Make city, state, and zip inputs full width */
+  .city input,
+  .state input,
+  .zip input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  /* Center second column */
+  /* .sec-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  } */
 }
